@@ -6,6 +6,7 @@
   border-radius: 10rpx;
   align-items: center;
   justify-content: center;
+  margin-top: 20rpx;
 }
 
 .header>view {
@@ -75,4 +76,16 @@
 
 .card-b text {
   display: block;
+}
+
+.red {
+  color: #ff7fa6;
+}
+
+.number {
+  font-size: 40rpx;
+}
+
+.card {
+  margin-top: 20rpx;
 }

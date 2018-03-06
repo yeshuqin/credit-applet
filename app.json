@@ -4,10 +4,28 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff7fa6",
+    "navigationBarTitleText": "信用卡信息",
+    "navigationBarTextStyle": "#FFFFFF"
+  },
+  "tabBar":{
+    "color":"#fff",
+    "backgroundColor":"#ff7fa6",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+         "text":"我的卡"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "添加卡"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人信息"
+      }
+    ]
   }
 }

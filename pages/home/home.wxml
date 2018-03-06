@@ -29,9 +29,34 @@
                   <text class="detial">本期应还</text> 
             </view>
             <view>
-                <text class="text-m">7</text>
-                <text class="text-m">七日待还</text> 
-                <text class="date">3.13</text> 
+                <text class="red number" style='float:left;padding-rigth:20rpx'>7</text>
+                <text style='float:left'>
+                  <text class="red">七日到期</text> 
+                  <text class="date">3.13</text> 
+                </text>
+            </view>
+        </view>
+    </view>
+      <view class="card">
+        <view class="card-h">
+            <text class="card-name">光大银行  <text>0989</text></text>
+            <text class="card-flag">待出账单</text>
+        </view>
+        <view class="card-b flex-w">
+            <view>
+              <text class="cash">500000</text> 
+              <text class="detial">可用额度</text> 
+            </view>
+            <view>
+                <text class="cash">500000</text> 
+                  <text class="detial">本期应还</text> 
+            </view>
+            <view>
+                <text class="red number" style='float:left;padding-rigth:20rpx'>7</text>
+                <text style='float:left'>
+                  <text class="red">七日出账</text> 
+                  <text class="date">3.13</text> 
+                </text>
             </view>
         </view>
     </view>
