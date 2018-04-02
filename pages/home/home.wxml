@@ -13,6 +13,9 @@
         <text class="cash">500000</text> 
      </view>
   </view>
+  <view>
+      <text>所有信用卡（1张）</text>
+  </view>
   <view class="card-w">
     <view class="card">
         <view class="card-h">

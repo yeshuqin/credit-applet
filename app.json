@@ -12,19 +12,26 @@
   },
   "tabBar":{
     "color":"#fff",
+    "selectedColor":"#d3217b",
     "backgroundColor":"#ff7fa6",
     "list":[
       {
         "pagePath":"pages/home/home",
-         "text":"我的卡"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "添加卡"
+         "text":"我的卡",
+         "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1_a.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "个人信息"
+        "text": "添加卡",
+        "iconPath": "images/icon2.png",
+        "selectedIconPath": "images/icon2_a.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人信息",
+        "iconPath":"images/icon3.png",
+        "selectedIconPath":"images/icon3_a.png"
       }
     ]
   }

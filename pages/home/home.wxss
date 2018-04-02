@@ -1,16 +1,15 @@
 /* pages/home/home.wxss */
 .header {
-  height: 160rpx;
-  border:1px solid #999;
+  height: 320rpx;
   display: flex;
   border-radius: 10rpx;
   align-items: center;
   justify-content: center;
-  margin-top: 20rpx;
+  flex-wrap:wrap-reverse;
 }
 
 .header>view {
-  flex:1;
+   width: 50%; 
   text-align: center;
   margin-top: 20rpx;
 }
@@ -34,19 +33,21 @@
 }
 
 .card {
-    border:1px solid #999;
+    border:1px solid #f2f2f2;
     border-radius: 10rpx;
     height: 240rpx;
+    box-shadow: 0 1rpx 4rpx #f2f2f2 
 }
 
 .card-h {
   height: 100rpx;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #f2f2f2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding:0 20rpx;
   color: #000;
+  
 }
 
 .card-name {
