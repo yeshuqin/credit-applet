@@ -2,16 +2,21 @@
 .header {
   height: 320rpx;
   display: flex;
-  border-radius: 10rpx;
   align-items: center;
   justify-content: center;
   flex-wrap:wrap-reverse;
+  color: #fff;
+  background: #061c2d;
 }
 
 .header>view {
    width: 50%; 
   text-align: center;
   margin-top: 20rpx;
+}
+
+.header .cash {
+  color: #fff
 }
 
 .header text{
@@ -24,24 +29,23 @@
 
 .cash {
   font-size: 36rpx;
-  color: #000;
-  margin-top: 10rpx;
+  color: #666;
 }
 
 .card-w {
   margin-top: 40rpx;
+
 }
 
 .card {
     border:1px solid #f2f2f2;
     border-radius: 10rpx;
-    height: 240rpx;
+    height: 220rpx;
     box-shadow: 0 1rpx 4rpx #f2f2f2 
 }
 
 .card-h {
-  height: 100rpx;
-  border-bottom: 1px solid #f2f2f2;
+  height: 60rpx;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,16 +55,14 @@
 }
 
 .card-name {
-  font-size: 30rpx;
+  font-size: 26rpx;
 }
 
 .card-flag {
   display: inline-block;
-  border: 1px solid #999;
   background: #fff;
   font-size: 26rpx;
   width: 160rpx;
-  height: 60rpx;
   text-align: center;
   border-radius: 8rpx;
   line-height: 60rpx;
@@ -68,25 +70,53 @@
 
 .card-b{
   padding: 0 30rpx;
-  height: 140rpx;
 }
 
 .card-b>view{
     flex:1;
 }
 
-.card-b text {
-  display: block;
+.card {
+  margin:20rpx;
 }
 
-.red {
-  color: #ff7fa6;
+.card-icon {
+    position: absolute;
+    width: 50rpx;
+    background: #448fc9;
+    display: inline-block;
+    height: 50rpx;
+    margin-top: 20rpx;
+}
+
+.card-b {
+  position: relative;
+  height: 160rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+
+.card-b-m {
+  margin-left: 50rpx;
+}
+
+.card-detail {
+  display: flex;
+  color: #999;
+  justify-content: space-around
+}
+
+.card-f {
+  text-align: center;
+  line-height: 60rpx;
 }
 
 .number {
-  font-size: 40rpx;
+    font-size: 40rpx;
+    color: #448fc9;
+    margin-right: 10rpx;
 }
 
-.card {
-  margin-top: 20rpx;
+.number-d {
+  font-size: 26rpx;
+  color: #448fc9;
 }

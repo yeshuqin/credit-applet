@@ -1,28 +1,29 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/add/add",
+    "pages/index/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff7fa6",
+    "navigationBarBackgroundColor": "#448fc9",
     "navigationBarTitleText": "信用卡信息",
     "navigationBarTextStyle": "#FFFFFF"
   },
   "tabBar":{
     "color":"#fff",
-    "selectedColor":"#d3217b",
-    "backgroundColor":"#ff7fa6",
+    "selectedColor":"#fff",
+    "backgroundColor":"#448fc9",
     "list":[
       {
         "pagePath":"pages/home/home",
          "text":"我的卡",
          "iconPath": "images/icon1.png",
-        "selectedIconPath": "images/icon1_a.png"
+        "selectedIconPath": "images/icon1.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/add/add",
         "text": "添加卡",
         "iconPath": "images/icon2.png",
         "selectedIconPath": "images/icon2_a.png"

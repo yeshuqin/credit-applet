@@ -9,58 +9,229 @@
         <text class="cash">500000</text> 
      </view>
      <view>
-        <text class="detial">近七日待还</text> 
+        <text class="detial">近7日待还</text> 
         <text class="cash">500000</text> 
      </view>
   </view>
-  <view>
+       
+  <view style='margin:20rpx'>
       <text>所有信用卡（1张）</text>
   </view>
   <view class="card-w">
     <view class="card">
-        <view class="card-h">
-            <text class="card-name">光大银行  <text>0989</text></text>
-            <text class="card-flag">设为已还</text>
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
+            </view>
         </view>
-        <view class="card-b flex-w">
-            <view>
-              <text class="cash">500000</text> 
-              <text class="detial">可用额度</text> 
-            </view>
-            <view>
-                <text class="cash">500000</text> 
-                  <text class="detial">本期应还</text> 
-            </view>
-            <view>
-                <text class="red number" style='float:left;padding-rigth:20rpx'>7</text>
-                <text style='float:left'>
-                  <text class="red">七日到期</text> 
-                  <text class="date">3.13</text> 
-                </text>
-            </view>
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
         </view>
     </view>
       <view class="card">
-        <view class="card-h">
-            <text class="card-name">光大银行  <text>0989</text></text>
-            <text class="card-flag">待出账单</text>
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
+            </view>
         </view>
-        <view class="card-b flex-w">
-            <view>
-              <text class="cash">500000</text> 
-              <text class="detial">可用额度</text> 
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
+        </view>
+    </view>
+      <view class="card">
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
             </view>
-            <view>
-                <text class="cash">500000</text> 
-                  <text class="detial">本期应还</text> 
+        </view>
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
+        </view>
+    </view>
+      <view class="card">
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
             </view>
-            <view>
-                <text class="red number" style='float:left;padding-rigth:20rpx'>7</text>
-                <text style='float:left'>
-                  <text class="red">七日出账</text> 
-                  <text class="date">3.13</text> 
-                </text>
+        </view>
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
+        </view>
+    </view>
+      <view class="card">
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
             </view>
+        </view>
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
+        </view>
+    </view>
+      <view class="card">
+        <view class="card-b">
+            <text class="card-icon">
+              
+            </text>
+            <view class="card-b-m">
+              <view class="card-h">
+                   <text class="card-name">光大银行_0989</text>
+               </view>
+              <view class="card-detail flex-w">
+                  <view>
+                    <view class="cash">500000</view> 
+                    <view class="detial">可用额度</view> 
+                  </view>
+                  <view>
+                      <view class="cash">500000</view> 
+                      <view class="detial">本期应还</view> 
+                  </view>
+                  <view>
+                      <view class="number" style='float:left'>18</view>
+                      <view style='float:left'>
+                        <view class="number-d">天日到期</view> 
+                        <view class="date">3.13</view> 
+                      </view>
+                  </view>
+              </view>
+            </view>
+        </view>
+        <view class="card-f">
+              <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                 <view class="picker">
+                  {{array[index]}}
+               </view>
+            </picker>
         </view>
     </view>
   </view>
